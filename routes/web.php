@@ -73,3 +73,6 @@ Route::group(['prefix' => 'info'], function () {
 Route::prefix('admin')->middleware('isAuth')->group(function () {
     Route::resource('kategoris', KategoriController::class);
 });
+
+
+Route::resource('sekolahs', App\Http\Controllers\SekolahController::class);

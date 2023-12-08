@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="banner-img-area-1">
-                        <img src="assets/images/banner/banner-1-1.jpg" alt="image">
+                        <img src="assets/images/team/pdl2.jpg" alt="image">
                         <a class="video-popup" href="https://www.youtube.com/watch?v=ukfISpWHVWI"><i
                                 class="fas fa-play"></i></a>
                     </div>
