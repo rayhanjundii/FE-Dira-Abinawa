@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/odometer.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <title>Kwartir Ranting Padalarang</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
