@@ -52,14 +52,13 @@ Route::group(['prefix' => 'organisasi'], function () {
     });
 
     Route::group(['prefix' => 'satuan-karya'], function () {
-        Route::get('wanabakti', [UserController::class, 'sakaWana'])->name('sakaWana');
-        Route::get('bhayangkara', [UserController::class, 'sakaBhaya'])->name('sakaBhaya');
-        Route::get('adhiyasta', [UserController::class, 'sakaAdhi'])->name('sakaAdhi');
+        Route::get('detail', [UserController::class, 'detailSaka'])->name('detailSaka');
+        // Route::get('bhayangkara', [UserController::class, 'sakaBhaya'])->name('sakaBhaya');
+        // Route::get('adhiyasta', [UserController::class, 'sakaAdhi'])->name('sakaAdhi');
     });
 
     Route::group(['prefix' => 'unit-kerja'], function () {
-        Route::get('protokoler', [UserController::class, 'unitProtokol'])->name('unitProtokol');
-        Route::get('pramuka-peduli', [UserController::class, 'unitPP'])->name('unitPP');
+        Route::get('detailUnit', [UserController::class, 'detailUnit'])->name('detailUnit');
     });
 });
 
@@ -73,3 +72,6 @@ Route::group(['prefix' => 'info'], function () {
 Route::prefix('admin')->middleware('isAuth')->group(function () {
     Route::resource('kategoris', KategoriController::class);
 });
+
+
+Route::resource('sekolahs', App\Http\Controllers\SekolahController::class);
