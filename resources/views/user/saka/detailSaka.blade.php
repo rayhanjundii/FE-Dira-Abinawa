@@ -7,7 +7,7 @@
                 <div class="col-lg-8">
                     <div class="details-text-area">
                         <img class="details-main-img" src="{{asset('assets/images/inner-images/sd-1.jpg')}}" alt="image">
-                        <h3>Saka Wanabakti Padalarang</h3>
+                        <h3>Satuan Karya Padalarang</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc laboris nisi
                             ut aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse

@@ -24,29 +24,29 @@ class UserController extends Controller
     // end Sejarah
 
     // Navbar Unit
-    public function unitPP()
+    public function detailUnit()
     {
-        return view('user.unit.pramuka-peduli');
+        return view('user.unit.detailUnit');
     }
-    public function unitProtokol()
-    {
-        return view('user.unit.protokoler');
-    }
+    // public function unitProtokol()
+    // {
+    //     return view('user.unit.protokoler');
+    // }
     //end Unit
 
     // Navbar Saka
-    public function sakaWana()
+    public function detailSaka()
     {
-        return view('user.saka.wanabakti');
+        return view('user.saka.detailSaka');
     }
-    public function sakaBhaya()
-    {
-        return view('user.saka.bhayangkara');
-    }
-    public function sakaAdhi()
-    {
-        return view('user.saka.adhiyasta');
-    }
+    // public function sakaBhaya()
+    // {
+    //     return view('user.saka.bhayangkara');
+    // }
+    // public function sakaAdhi()
+    // {
+    //     return view('user.saka.adhiyasta');
+    // }
     // end Saka
 
     // Navbar Kepengurusan

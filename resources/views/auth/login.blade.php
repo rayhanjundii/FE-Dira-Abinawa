@@ -70,7 +70,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="card text-white bg-primary py-5 d-md-down-none" style="width:44%">
+                {{-- <div class="card text-white bg-primary py-5 d-md-down-none" style="width:44%">
                     <div class="card-body text-center">
                         <div>
                             <h2>Sign up</h2>
@@ -79,7 +79,7 @@
                                 <a class="btn btn-primary active mt-3" href="{{ url('/register') }}">Register Now!</a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

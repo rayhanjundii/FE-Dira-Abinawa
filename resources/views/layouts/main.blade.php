@@ -66,7 +66,6 @@
                                             <li class="nav-item"><a href="{{route('sandiDira')}}" class="nav-link">Sandi</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item"><a href="{{route('dataPotensi')}}" class="nav-link">Data Potensi</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -79,28 +78,14 @@
                                             <li class="nav-item"><a href="{{route('kwartirRanting')}}" class="nav-link">Dewan Kerja</a></li>
                                         </ul>
                                     </li> 
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">Satuan Karya</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="{{route('sakaWana')}}" class="nav-link">Wanabakti</a></li>
-                                            <li class="nav-item"><a href="{{route('sakaBhaya')}}" class="nav-link">Bhayangkara</a></li>
-                                            <li class="nav-item"><a href="{{route('sakaAdhi')}}" class="nav-link">Adhiyasta</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">Unit Kerja</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="{{route('unitProtokol')}}" class="nav-link">Protokoler</a></li>
-                                            <li class="nav-item"><a href="{{route('unitPP')}}" class="nav-link">Pramuka Peduli</a></li>
-                                        </ul>
-                                    </li> 
+                                    <li class="nav-item"><a href="{{route('detailSaka')}}" class="nav-link">Satuan Karya</a></li>
+                                    <li class="nav-item"><a href="{{route('detailUnit')}}" class="nav-link">Unit</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link dropdown-toggle">Info </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a href="{{route('kegiatan')}}" class="nav-link">Kegiatan</a></li>
-                                    <li class="nav-item"><a href="{{route('infoTerkini')}}" class="nav-link">Informasi Terkini</a></li>
                                     <li class="nav-item"><a href="{{route('hubungiKami')}}" class="nav-link">Hubungi Kami</a></li>
                                 </ul>
                             </li>
