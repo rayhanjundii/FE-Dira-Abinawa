@@ -75,17 +75,20 @@ class UserController extends Controller
 
 
     public function kegiatan()
-    {
-        return view('user.kegiatan.index');
+    {  $apiUrl = "http://127.0.0.1:3000/news/";
+        
+        $data = file_get_contents($apiUrl);
+    
+        $newsData = json_decode($data, true);
+        
+        return view('user.kegiatan.index', ['newsData' => $newsData]);
     }
     public function detailKegiatan()
     {
         return view('user.kegiatan.detail');
     }
-    public function infoTerkini()
-    {
-        return view('user.info.index');
-    }
+ 
+    
     public function detailInfoTerkini()
     {
         return view('user.info.detail');
