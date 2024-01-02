@@ -53,3 +53,9 @@
         <span>Sekolahs</span>
     </a>
 </li>
+<li class="nav-item {{ Request::is('schools*') ? 'active' : '' }}">
+    <a class="nav-link" href="{{ route('schools.index') }}">
+        <i class="nav-icon icon-cursor"></i>
+        <span>Schools</span>
+    </a>
+</li>

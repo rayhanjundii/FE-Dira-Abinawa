@@ -75,3 +75,6 @@ Route::prefix('admin')->middleware('isAuth')->group(function () {
 
 
 Route::resource('sekolahs', App\Http\Controllers\SekolahController::class);
+
+
+Route::resource('schools', App\Http\Controllers\SchoolsController::class);
