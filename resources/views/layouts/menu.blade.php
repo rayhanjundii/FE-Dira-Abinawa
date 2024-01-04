@@ -47,12 +47,12 @@
         <span>User</span>
     </a>
 </li>
-<li class="nav-item {{ Request::is('sekolahs*') ? 'active' : '' }}">
+{{-- <li class="nav-item {{ Request::is('sekolahs*') ? 'active' : '' }}">
     <a class="nav-link" href="{{ route('sekolahs.index') }}">
         <i class="nav-icon icon-cursor"></i>
         <span>Sekolahs</span>
     </a>
-</li>
+</li> --}}
 <li class="nav-item {{ Request::is('schools*') ? 'active' : '' }}">
     <a class="nav-link" href="{{ route('schools.index') }}">
         <i class="nav-icon icon-cursor"></i>

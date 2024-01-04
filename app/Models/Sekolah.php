@@ -17,15 +17,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class Sekolah extends Model
 {
     use SoftDeletes;
-
     use HasFactory;
 
     public $table = 'sekolahs';
-    
 
     protected $dates = ['deleted_at'];
-
-
 
     public $fillable = [
         'name',
@@ -51,5 +47,4 @@ class Sekolah extends Model
         
     ];
 
-    
 }

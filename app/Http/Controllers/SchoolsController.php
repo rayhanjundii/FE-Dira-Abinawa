@@ -8,18 +8,14 @@ use App\Repositories\SchoolsRepository;
 use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Flash;
+use Illuminate\Support\Facades\Http;
 use Response;
 
 class SchoolsController extends AppBaseController
 {
     /** @var SchoolsRepository $schoolsRepository*/
     private $schoolsRepository;
-
-    public function __construct(SchoolsRepository $schoolsRepo)
-    {
-        $this->schoolsRepository = $schoolsRepo;
-    }
-
+    
     /**
      * Display a listing of the Schools.
      *
